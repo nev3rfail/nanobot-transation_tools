@@ -1,6 +1,7 @@
 # Translation Tools
 [nanobot](https://github.com/nev3rfail/telegram-nanobot) plugin for Google Cloud Translate and Google Cloud TTS for Telegram
 
+https://t.me/translate_tools_bot -- bot in action
 ## Usage:
 * Download or clone this repo
 * Place JSON file with your Google Cloud credentials to nanobot-transation-tools/google-cloud-authdata.json

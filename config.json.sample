@@ -1,0 +1,25 @@
+{
+    "telegram_token": "your bot token",
+    "debug": true,
+    "database": "translation_tools.sqlite",
+    "database_autocommit": true,
+    "libs": ["database"],
+    "libs_config": {
+        "database": {
+            "dbpath": "db.sqlite",
+            "autocommit": false
+        },
+    },
+    "plugins": ["gatekeeper", "google_cloud", "google_tts", "google_translate"],
+    "plugin_config": {
+        "gatekeeper": {
+            "mode": "auto"
+        },
+        "google_translate": {
+            "default_to": "ru",
+            "default_to_if_from_is_to": "en",
+            "tts": true
+        }
+    }
+}
+
